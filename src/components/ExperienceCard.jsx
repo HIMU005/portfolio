@@ -6,7 +6,7 @@ import reactImage from '../assets/reactjs.png'
 
 const ExperienceCard = () => {
     return (
-        <>
+        <div id='experience'>
             <h2 className='text-[#C5C5C5] text-lg md:text-lg font-bold text-center my-4' >Experience with</h2>
             <div className='flex justify-center gap-3 md:gap-6'>
                 <img className='w-10 h-11' src={htmlImage} alt="" />
@@ -15,7 +15,7 @@ const ExperienceCard = () => {
                 <img className='w-10 h-11' src={reactImage} alt="" />
                 <img className='w-10 h-11' src={nodeImage} alt="" />
             </div>
-        </>
+        </div>
     );
 };
 

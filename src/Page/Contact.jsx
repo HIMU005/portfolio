@@ -31,7 +31,7 @@ const Contact = () => {
             })
     }
     return (
-        <div className='bg-[#161513] text-white py-12 px-[10%]'>
+        <div id="contact" className='bg-[#161513] text-white py-12 px-[10%]'>
             <h2 className="text-3xl">Contact</h2>
 
             <div className="flex justify-center gap-4 md:gap-7 lg:gap-10 py-4">

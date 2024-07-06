@@ -50,7 +50,7 @@ const Projects = () => {
     ]
 
     return (
-        <div className='bg-[#161513] text-white px-[10%]'>
+        <div id='project' className='bg-[#161513] text-white px-[10%]'>
             <h3 className="text-xl py-8 text-center md:text-2xl lg:text-4xl font-bold bg-gradient-to-r from-orange-400 via-blue-500 to-red-400 text-transparent bg-clip-text animate-gradient ">Projects</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                 {

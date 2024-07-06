@@ -2,9 +2,9 @@
 const Navbar = () => {
     const links = <>
         <li><a>Home</a></li>
-        <li><a>Project</a></li>
-        <li><a>Experience</a></li>
-        <li><a>Contact</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
     </>
     return (
 

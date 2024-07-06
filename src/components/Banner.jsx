@@ -14,7 +14,7 @@ const Banner = () => {
                 <h3 className='text-center text-2xl font-semibold text-[#C5C5C5] '>Experience With</h3>
                 {/* button section  */}
                 <div className="flex flex-col md:flex-row justify-center gap-6 my-5">
-                    <button className='btn btn-accent bg-white rounded-3xl text-xl'>Get In touch</button>
+                    <button className='btn btn-accent bg-white rounded-3xl text-xl'><a href="#contact">Get In touch</a></button>
                     <button className='btn btn-success rounded-3xl text-xl border-white text-white bg-black'>
                         <a href={myImg} download="Himu_Banner.png">Download CV</a>
                     </button>
